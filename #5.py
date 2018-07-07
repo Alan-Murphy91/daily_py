@@ -27,6 +27,5 @@ def cdr(pair):
 '''
 Lambda functions can't act on a tuple or a list. Cons is a closure, we can
 only return the two individual arguments fed to it as a pair by returning them as
-the arguments of a locally declared anonymous function. Lambda can then act
-on this result.
+the arguments of its function. Lambda can then act on this result.
 '''
